@@ -1,0 +1,3 @@
+Computer vision systems transform images into predictions using image preprocessing and learned models. Convolutional neural networks use spatial filters, while vision transformers represent images as patches processed with attention.
+
+Model calibration measures whether prediction confidence agrees with observed correctness. Domain shift occurs when deployment images differ from training images. External evaluation, transparent metrics, and uncertainty estimates are important for robust machine learning.

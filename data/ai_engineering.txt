@@ -1,0 +1,5 @@
+Retrieval augmented generation uses a retrieval system to select relevant evidence before a generator produces an answer. Retrieval quality should be measured separately from answer quality. Lexical retrieval finds overlapping terms. Dense retrieval typically uses learned embeddings to find semantic matches. AtlasRAG uses deterministic feature hashing, not learned embeddings.
+
+A reliable evaluation separates training data from test queries and reports retrieval metrics such as Recall at k and mean reciprocal rank. A high score on a tiny curated example does not establish generalization. Grounded answers should identify the supporting source passages and abstain when evidence is insufficient.
+
+AI agent tool calls can create operational risks when tools change external systems. Validation of tool names and arguments is one layer of defense. Authentication, authorization, audit logs, and adversarial testing remain necessary for production deployments.
